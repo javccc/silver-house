@@ -1,0 +1,43 @@
+@media (max-width: 1140px) {
+    .main-box
+    {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+    }
+   
+}
+
+@media (max-width:870px) {
+   .footer-box{
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+   }
+}
+
+
+@media (max-width: 730px) {
+    .header-box {
+        flex-direction: column;
+        
+    }
+    .header-list {
+       flex-wrap: wrap;
+       justify-content: center;
+        gap: 15px;
+    }
+    
+    
+}
+
+@media (max-width: 486px) {
+    .main-box-left,
+    .main-box-right {
+        width: 100%;
+    }
+    .footer-box {
+        flex-direction: column;
+    }
+}
